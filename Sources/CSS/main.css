@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width:  100%;
+}
+.flexbox-container{
+    display: flex;
+    align-items: stretch;
+}
+.flexbox-item{
+    height: 10%;
+    min-height: 50px;
+    border: 3px solid rgb(17, 16, 16);
+    background-color:rgb(17, 16, 16);
+    color: aliceblue;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(44, 45, 47);
+}
+.home{
+    width: 25%;
+    background-color:deeppink;
+}
+.about-me{
+    width: 12.5%;
+}
+.project-1{
+    width: 12.5%;
+}
+.project-2{
+    width: 12.5%;
+}
+.project-3{
+    width: 12.5%;
+}
+.project-4{
+    width: 12.5%;
+}
+.project-5{
+    width: 12.5%;
+}
