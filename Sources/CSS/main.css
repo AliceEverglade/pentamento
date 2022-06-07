@@ -20,6 +20,8 @@ a{
     min-height: 50px;
     background-color:rgb(17, 16, 16);
     color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .button:hover{
     cursor: pointer;
@@ -27,40 +29,47 @@ a{
 }
 .home{
     width: 25%;
+    background-image: url(/Sources/Images/PentaMento.png);
 }
 .about-me{
     width: 12.5%;
+    background-image: url(/Sources/Images/AboutMeButtonArt.png);
 }
 .project-1{
     width: 12.5%;
+    background-image: url(/Sources/Images/MicButtonArt.png);
 }
 .project-2{
     width: 12.5%;
+    background-image: url(/Sources/Images/FireButtonArt.png);
 }
 .project-3{
     width: 12.5%;
+    background-image: url(/Sources/Images/BookButtonArt.png);
 }
 .project-4{
     width: 12.5%;
+    background-image: url(/Sources/Images/CelesteButtonArt.png);
 }
 .project-5{
     width: 12.5%;
+    background-image: url(/Sources/Images/GameConceptButtonArt.png);
 }
-.VA-logo:hover{
-    content: url("/Sources/Images/MicButtonAnim.gif");
+.about-me:hover{
+    background-image: url(/Sources/Images/AboutMeButtonAnim.gif);
 }
-.VFX-logo:hover{
-    content: url("/Sources/Images/FireButtonAnim.gif");
+.project-1:hover{
+    background-image: url(/Sources/Images/MicButtonAnim.gif);
 }
-.Writing-logo:hover{
-    content: url("/Sources/Images/BookButtonAnim.gif");
+.project-2:hover{
+    background-image: url(/Sources/Images/FireButtonAnim.gif);
 }
-.MediaTour-logo:hover{
-    content: url("/Sources/Images/CelesteButtonAnim.gif");
+.project-3:hover{
+    background-image: url(/Sources/Images/BookButtonAnim.gif);
 }
-.GC-logo:hover{
-    content: url("/Sources/Images/GameConceptButtonAnim.gif");
+.project-4:hover{
+    background-image: url(/Sources/Images/CelesteButtonAnim.gif);
 }
-.AM-logo:hover{
-    content: url("/Sources/Images/AboutMeButtonAnim.gif");
+.project-5:hover{
+    background-image: url(/Sources/Images/GameConceptButtonAnim.gif);
 }
