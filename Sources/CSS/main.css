@@ -1,9 +1,15 @@
 * {
     margin: 0;
+    padding: 0;
+    border: 0;
 }
 html,body{
     height: 100%;
     width:  100%;
+}
+a{
+    width: 100%;
+    min-width: 100%;
 }
 .flexbox-container{
     display: flex;
@@ -21,7 +27,6 @@ html,body{
 }
 .home{
     width: 25%;
-    background-color:deeppink;
 }
 .about-me{
     width: 12.5%;
@@ -40,4 +45,22 @@ html,body{
 }
 .project-5{
     width: 12.5%;
+}
+.VA-logo:hover{
+    content: url("/Sources/Images/MicButtonAnim.gif");
+}
+.VFX-logo:hover{
+    content: url("/Sources/Images/FireButtonAnim.gif");
+}
+.Writing-logo:hover{
+    content: url("/Sources/Images/BookButtonAnim.gif");
+}
+.MediaTour-logo:hover{
+    content: url("/Sources/Images/CelesteButtonAnim.gif");
+}
+.GC-logo:hover{
+    content: url("/Sources/Images/GameConceptButtonAnim.gif");
+}
+.AM-logo:hover{
+    content: url("/Sources/Images/AboutMeButtonAnim.gif");
 }
